@@ -26,7 +26,7 @@ const Navbar = () => {
             <nav className="navbar background">
                 <div classNameName="website-name"><Link to="/">Puppy Love Website</Link></div>
 
-                <span className="hamburger" onClick={() => clickfunc()}>
+                <span className="hamburger" onClick={clickfunc()}>
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
