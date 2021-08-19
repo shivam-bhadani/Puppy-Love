@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.background{
+    background-image: url('./images/bg.jpg');
+    background-color: rgba(0,0,0,0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* margin-left: 10%; */
+    max-width: 65%;
+    margin: auto;
+    height: 100%;
+}
+
+
+.text_big{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_small{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    padding: 12px 28px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    transition: 0.4s;
+    font-size: large;
+}
+.sub-btn{margin-right: 20px;}
+.btn-sm{
+    padding: 4px 12px;
+    font-size: medium;
+}
+
+.btn:hover{
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+}
+
+.sec-img{
+    width: 400px;
+    height: auto;
+    margin-left: 40px;
+    border-radius: 22px;
+    /* box-shadow: 5px 5px 20px rgb(0,0,0,0.7); */
+}
+
+.section{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.sec2{
+    flex-direction: row-reverse;
+}
+.sec-img2{
+    margin-right: 40px;
+    margin-left: 0;
+}
+.p_text_big{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.p_text_small{
+    font-size: 1.37rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+}
+
+
+.copyRight{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 40px;
+
+}
+.copyRight_para{
+    padding: 15px 0;
+    color: #f2f2f2;
+    font-size: 1.1rem;
+}

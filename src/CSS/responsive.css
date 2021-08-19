@@ -1,0 +1,99 @@
+@media screen and (max-width: 1140px){
+    .v-class li{
+        display: block;
+    }
+
+    .contact_form_container{
+        max-width: 55%;
+    }
+}
+
+
+
+@media screen and (max-width: 1124px){
+    .section{
+        flex-direction: column;
+    }
+    .sec-img2{
+        margin-right: 0;
+    }
+    .sec-img{
+        margin-left: 0;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn_res{
+        /* margin: auto; */
+        width: 40%;
+    }
+    .sub-btn{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .box_main{
+        max-width: 90%;
+    }
+    .btn_res{
+        width: 70%;
+    }
+    .section{
+        max-width: 90%;
+    }
+    .sec-img{
+        width: 80%;
+        height: auto;
+    }
+    
+}
+/* @media screen and (max-width: 568px){
+    html{font-size: 70%;}
+} */
+@media screen and (max-width: 320px){
+    .text_big{font-size: 2rem;}
+    .text_small{font-size: 1.3rem;}
+}
+
+/* @media screen and (max-height: 864px){
+    html{
+        font-size: 87%;
+    }
+} */
+
+
+@media screen and (max-height: 570px){
+    /* html{
+        font-size: 85%;
+    } */
+
+    .v-class{
+        margin-top: -90px;
+    }
+    .firstSection{
+        height: 700px;
+    }
+
+    .box_main{
+        max-width: 90%;
+        margin-top: -10%;
+    }
+    .btn{
+        font-size: medium;
+    }
+    .firstSection{
+        margin-bottom: 0px;
+    }
+    .btn_res{
+        padding: 4px;
+    }
+    .buttons{
+        margin-bottom: -20%;
+    }
+
+}
