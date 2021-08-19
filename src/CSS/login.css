@@ -73,9 +73,9 @@ a{
 }
 
 @media(max-height:534px){
-    .login-page-container{
+    /* .login-page-container{
         width: 90%;
-    }
+    } */
     body{
         display: block;
     }
